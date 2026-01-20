@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-  reactCompiler: true,
-};
+  images: {
+    domains: [
+      'cdn.jsdelivr.net',
+      'www.svgrepo.com',
+      'images.unsplash.com'
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
