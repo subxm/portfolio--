@@ -16,9 +16,9 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="flex flex-col gap-6">
-      <h2 className="text-2xl font-bold text-left">Skills</h2>
-      <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 items-center justify-center">
+    <section id="skills" className="flex flex-col items-center justify-center max-w-2xl mx-auto px-4 gap-6 py-8">
+      <h2 className="text-2xl font-bold w-full text-left">Skills</h2>
+      <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 items-center justify-center w-full">
         {skills.map((s) => (
           <div key={s.name} className="flex flex-col items-center gap-2">
             <img src={s.icon} alt={s.name} className="w-10 h-10 object-contain" />

@@ -8,8 +8,8 @@ const Divider = () => <div className="h-px bg-gradient-to-r from-transparent via
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <main className="w-full max-w-4xl flex flex-col gap-16 py-10 px-6 md:px-12">
+    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center">
+      <main className="w-full flex flex-col gap-12 items-center justify-center">
         <Hero />
         <Divider />
         <Skills />

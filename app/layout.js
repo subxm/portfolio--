@@ -13,6 +13,7 @@ export const metadata = {
     description: 'Computer Science undergraduate with hands-on experience in Java Full Stack and MERN development.',
     type: 'website',
   },
+  metadataBase: new URL('https://subhamnegi.dev'), // Set your production domain here
 }
 
 export default function RootLayout({ children }) {
