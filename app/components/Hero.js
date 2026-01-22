@@ -32,14 +32,14 @@ const Hero = () => {
       <p className="text-neutral-400 mb-4 text-left w-full">
         I build meaningful web apps, from backend APIs to polished frontends.
       </p>
-      <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center">
+      <div className="flex flex-row items-center w-full justify-between gap-4">
         <a href="/Subham_Singh_Negi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm bg-white text-black font-medium shadow hover:bg-neutral-200 transition-colors">
           Resume
         </a>
-        <div className="flex gap-4 text-neutral-400 text-xl">
-          <a href="https://github.com/subxm" aria-label="GitHub" className="hover:text-white"><Github size={22} /></a>
-          <a href="https://www.linkedin.com/in/subxm/" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={22} /></a>
-          <a href="https://x.com/subhamfr" aria-label="X" className="hover:text-white"><XLogo size={22} /></a>
+        <div className="flex gap-3 text-neutral-400 text-lg">
+          <a href="https://github.com/subxm" aria-label="GitHub" className="hover:text-white"><Github size={18} /></a>
+          <a href="https://x.com/subhamfr" aria-label="X" className="hover:text-white"><XLogo size={18} /></a>
+          <a href="https://www.linkedin.com/in/subxm/" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={18} /></a>
         </div>
       </div>
     </section>

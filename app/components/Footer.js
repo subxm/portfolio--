@@ -19,10 +19,10 @@ const XLogo = (props) => (
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center gap-4 py-6 mt-8 border-t border-zinc-800 w-full">
-      <div className="flex gap-6 text-neutral-400">
-        <a href="https://github.com/subxm" aria-label="GitHub" className="hover:text-white"><Github size={22} /></a>
-        <a href="https://www.linkedin.com/in/subxm/" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={22} /></a>
-        <a href="https://x.com/subhamfr" aria-label="X" className="hover:text-white"><XLogo size={22} /></a>
+      <div className="flex gap-5 text-neutral-400">
+        <a href="https://github.com/subxm" aria-label="GitHub" className="hover:text-white"><Github size={18} /></a>
+        <a href="https://x.com/subhamfr" aria-label="X" className="hover:text-white"><XLogo size={18} /></a>
+        <a href="https://www.linkedin.com/in/subxm/" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={18} /></a>
       </div>
     </footer>
   );
