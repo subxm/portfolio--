@@ -16,8 +16,8 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="flex flex-col items-center justify-center max-w-2xl mx-auto px-4 gap-6 py-8">
-      <h2 className="text-2xl font-bold w-full text-left">Skills</h2>
+    <section id="skills" className="flex flex-col items-center justify-center max-w-2xl mx-auto px-4 py-8 w-full">
+      <h2 className="text-2xl font-bold w-full text-left mb-6">Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 w-full">
         {skills.map((s) => (
           <div key={s.name} className="flex items-center gap-2 bg-zinc-900 rounded-lg px-3 py-2 shadow border border-zinc-800">

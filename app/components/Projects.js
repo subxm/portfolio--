@@ -17,8 +17,8 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="flex flex-col items-center justify-center max-w-2xl mx-auto px-4 gap-6 py-8">
-      <h2 className="text-2xl font-bold w-full text-left mb-2">Projects</h2>
+    <section id="projects" className="flex flex-col items-center justify-center max-w-2xl mx-auto px-4 py-8 w-full">
+      <h2 className="text-2xl font-bold w-full text-left mb-6">Projects</h2>
       <div className="flex flex-col gap-4 w-full">
         {projects.map((p) => (
           <div key={p.title} className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 hover:scale-[1.01] transition-transform">
