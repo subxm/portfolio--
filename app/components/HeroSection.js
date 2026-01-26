@@ -50,7 +50,7 @@ const HeroSection = () => {
           />
           <span className="text-sm font-medium">Resume</span>
         </a>
-        <div className="flex gap-2">
+        <div className="flex gap-3">
           <a 
             href="https://github.com/subxm" 
             target="_blank" 
