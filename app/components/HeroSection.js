@@ -52,7 +52,7 @@ const HeroSection = () => {
         </a>
         <div className="flex gap-2">
           <a 
-            href="https://github.com" 
+            href="https://github.com/subxm" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-neutral-400 transition-colors duration-200"
@@ -63,7 +63,7 @@ const HeroSection = () => {
             </svg>
           </a>
           <a 
-            href="https://twitter.com" 
+            href="https://x.com/subhamfr" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-neutral-400 transition-colors duration-200"
@@ -74,7 +74,7 @@ const HeroSection = () => {
             </svg>
           </a>
           <a 
-            href="mailto:your-email@example.com" 
+            href="mailto:subhamsinghnegi03@gmail.com" 
             className="text-white hover:text-neutral-400 transition-colors duration-200"
             aria-label="Email"
           >
@@ -84,7 +84,7 @@ const HeroSection = () => {
             </svg>
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/subxm/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-neutral-400 transition-colors duration-200"
