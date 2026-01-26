@@ -22,7 +22,7 @@ const FooterSection = () => {
     <footer className="flex flex-col items-center justify-center w-full border-t border-neutral-800 py-8">
       <div className="flex gap-6">
         <a 
-          href="https://github.com" 
+          href="https://github.com/subxm" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-neutral-400 transition-colors duration-200"
@@ -33,7 +33,7 @@ const FooterSection = () => {
           </svg>
         </a>
         <a 
-          href="https://twitter.com" 
+          href="https://x.com/subhamfr" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-neutral-400 transition-colors duration-200"
@@ -42,7 +42,7 @@ const FooterSection = () => {
           <XLogo width={20} height={20} />
         </a>
         <a 
-          href="https://linkedin.com" 
+          href="https://www.linkedin.com/in/subxm/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-neutral-400 transition-colors duration-200"
