@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const XLogo = (props) => (
   <svg
@@ -19,6 +19,11 @@ const XLogo = (props) => (
 );
 
 const Hero = () => {
+  const handleEmailClick = (e) => {
+    e.preventDefault();
+    window.location.href = 'mailto:subhamsinghnegi03@gmail.com';
+  };
+
   return (
     <section className="flex flex-col items-center justify-center max-w-2xl mx-auto px-4 pt-10 pb-8 text-center">
       <div className="w-full h-48 rounded-xl overflow-hidden mb-6">
@@ -41,6 +46,7 @@ const Hero = () => {
         <div className="flex gap-3 text-neutral-400 text-lg">
           <a href="https://github.com/subxm" aria-label="GitHub" className="hover:text-white"><Github size={18} /></a>
           <a href="https://x.com/subhamfr" aria-label="X" className="hover:text-white"><XLogo size={18} /></a>
+          <button onClick={handleEmailClick} aria-label="Email" className="hover:text-white bg-transparent border-0 cursor-pointer text-neutral-400 hover:text-white transition-colors"><Mail size={18} /></button>
           <a href="https://www.linkedin.com/in/subxm/" aria-label="LinkedIn" className="hover:text-white"><Linkedin size={18} /></a>
         </div>
       </div>

@@ -18,6 +18,11 @@ const XLogo = (props) => (
 );
 
 const HeroSection = () => {
+  const handleEmailClick = (e) => {
+    e.preventDefault();
+    window.location.href = 'mailto:subhamsinghnegi03@gmail.com';
+  };
+
   return (
     <section className="flex flex-col items-start justify-start max-w-xl mx-auto px-4 pt-12 pb-12 w-full">
       <div className="w-full mb-6">
@@ -74,13 +79,12 @@ const HeroSection = () => {
             </svg>
           </a>
           <a 
-            href="mailto:subhamsinghnegi03@gmail.com" 
-            className="text-white hover:text-neutral-400 transition-colors duration-200"
+            onClick={handleEmailClick}
+            className="text-white hover:text-neutral-400 transition-colors duration-200 cursor-pointer"
             aria-label="Email"
           >
             <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" strokeWidth="2"/>
-              <path d="m2 6 10 7 10-7" stroke="currentColor" strokeWidth="2" fill="none"/>
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
             </svg>
           </a>
           <a 

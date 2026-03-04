@@ -3,6 +3,12 @@
 const ProjectsSection = () => {
   const projects = [
     {
+      title: 'CodeCollab',
+      description: 'A real-time collaborative IDE with AI pair programming, live code execution, and instant team sync. Multiple developers can write code simultaneously with live cursor sync powered by Socket.io.',
+      link: 'https://code-collab-zeta-flax.vercel.app/',
+      github: 'https://github.com/subxm/CodeCollab'
+    },
+    {
       title: 'RESOLIO',
       description: 'AI-powered application for intelligent problem resolution and analysis. Built with modern technologies to provide seamless user experience.',
       link: 'https://resolio-ai.netlify.app/',
@@ -13,18 +19,6 @@ const ProjectsSection = () => {
       description: 'AI-powered video script writing platform that generates engaging and creative scripts for content creators. Streamlines the video production process with intelligent content generation.',
       link: 'https://reelwrite-ai.netlify.app/',
       github: 'https://github.com/subxm/ReelWriteAI'
-    },
-    {
-      title: 'Real-Time Chat Application',
-      description: 'Full-stack real-time messaging application using SpringBoot and WebSocket protocol for instant communication between multiple users with low latency message delivery.',
-      link: '',
-      github: 'https://github.com/subxm/Springboot_RealTime_Chat_App'
-    },
-    {
-      title: 'WebScraper',
-      description: 'Automated web scraping tool using Node.js and Puppeteer for efficient data extraction from dynamic websites with JavaScript-rendered content. Supports flexible scraping logic and exports in JSON and CSV formats.',
-      link: '',
-      github: 'https://github.com/subxm/Web-Scraper'
     }
   ];
 

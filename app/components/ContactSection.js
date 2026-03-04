@@ -22,6 +22,11 @@ const ContactSection = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const handleEmailClick = (e) => {
+    e.preventDefault();
+    window.location.href = 'mailto:subhamsinghnegi03@gmail.com';
+  };
+
   return (
     <section id="contact" className="flex flex-col items-start justify-start max-w-4xl mx-auto px-4 py-16 w-full">
       <h2 className="text-3xl font-bold mb-12">Contact</h2>
@@ -29,12 +34,12 @@ const ContactSection = () => {
       <div className="w-full space-y-8">
         <div>
           <h3 className="text-sm font-bold text-neutral-400 uppercase tracking-wide mb-4">Available for new projects</h3>
-          <a 
-            href="mailto:subhamsinghnegi03@gmail.com"
-            className="text-lg text-white hover:text-neutral-300 transition-colors"
+          <button 
+            onClick={handleEmailClick}
+            className="text-lg text-white hover:text-neutral-300 transition-colors bg-transparent border-0 cursor-pointer"
           >
             Send Email subhamsinghnegi03@gmail.com
-          </a>
+          </button>
         </div>
 
         <div>
